@@ -1,4 +1,4 @@
-const { defineConfig } = require('@playwright/test');
+const { defineConfig, devices } = require('@playwright/test');
 
 module.exports = defineConfig({
 	testDir: './test/tests',
@@ -20,21 +20,15 @@ module.exports = defineConfig({
 	projects: [
 		{
 			name: 'chromium',
-			use: {
-				channel: 'chrome',
-			},
+			use: { ...devices['Desktop Chrome'] },
 		},
 		{
 			name: 'firefox',
-			use: {
-				channel: 'firefox',
-			},
+      		use: { ...devices['Desktop Firefox'] },
     	},
     	{
-      		name: 'webkit',
-      		use: {
-				channel: 'webkit',
-			},
+			name: 'webkit',
+			use: { ...devices['Desktop Safari'] },
     	},
     /* Test against mobile viewports. */
 		// {
