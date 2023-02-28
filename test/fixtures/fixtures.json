@@ -1,0 +1,11 @@
+{
+    "full_name": "John Doe",
+    "first_name": "John",
+    "last_name": "Doe",
+    "phone_number": "123456789",
+    "website_url": "test.com",
+    "valid_email": "valid_email@email.com",
+    "valid_password": "Valid_pass123",
+    "invalid_email": "invalid_email@",
+    "invalid_password": "invalid_pass"
+}
