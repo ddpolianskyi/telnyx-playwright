@@ -21,19 +21,19 @@ module.exports = defineConfig({
 		{
 			name: 'chromium',
 			use: {
-				channel: 'Desktop Chrome',
+				channel: 'chrome',
 			},
 		},
 		{
 			name: 'firefox',
 			use: {
-				channel: 'Desktop Firefox',
+				channel: 'firefox',
 			},
     	},
     	{
       		name: 'webkit',
       		use: {
-				channel: 'Desktop Safari',
+				channel: 'webkit',
 			},
     	},
     /* Test against mobile viewports. */
