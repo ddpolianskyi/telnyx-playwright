@@ -1,4 +1,4 @@
-# Automation testing of a Telnyx website with Playwright and Allure Reporter
+# Automation testing of the Telnyx website with Playwright and Allure Reporter
 
 
 ## Versions
