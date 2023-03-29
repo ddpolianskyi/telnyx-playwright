@@ -1,0 +1,20 @@
+{
+	"name": "telnyx-playwright",
+	"version": "1.0.0",
+	"description": "Automation testing of the Telnyx website with Playwright.",
+	"main": "index.js",
+	"scripts": {
+		"test": "npx playwright test",
+		"allure:generate": "npx allure generate --clean",
+		"allure:open": "npx allure open"
+	},
+	"keywords": [],
+	"author": "Daniil Polianskyi",
+	"license": "ISC",
+	"devDependencies": {
+		"@faker-js/faker": "^7.6.0",
+		"@playwright/test": "^1.31.2",
+		"allure-commandline": "^2.21.0",
+		"allure-playwright": "^2.1.0"
+	}
+}
